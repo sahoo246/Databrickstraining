@@ -1,0 +1,16 @@
+{
+  "datasets" : [ {
+    "name" : "2c5bf427",
+    "displayName" : "Untitled dataset",
+    "query" : "\r\nselect * from dev.KamalSahoo_bronze.customers;"
+  }, {
+    "name" : "d4e6044a",
+    "displayName" : "Untitled dataset 1",
+    "query" : "select\r\n  customer_id,\r\n  count(*) as count\r\nfrom\r\n  dev.KamalSahoo_silver.sales"
+  } ],
+  "pages" : [ {
+    "name" : "daead5c2",
+    "displayName" : "Untitled page",
+    "pageType" : "PAGE_TYPE_CANVAS"
+  } ]
+}
